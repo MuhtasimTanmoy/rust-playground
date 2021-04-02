@@ -1,9 +1,9 @@
 # Rust Playground
 
-This repository contains rust learning materials, sample codebase, code snippets containing concept implementation.
+> This repository contains rust learning materials, sample codebase, code snippets containing concept implementation.
 
 
-RESOURCES:
+## RESOURCES:
 
 - [Rust ownership, safety explained](https://words.steveklabnik.com/a-30-minute-introduction-to-rust)
 
@@ -13,11 +13,12 @@ RESOURCES:
 
 - [How Rust ownership works?](https://static.rust-lang.org/doc/master/book/ownership.html)
 
-- [Error Handling RustDoc](https://static.rust-lang.org/doc/master/book/error-handling.html)
+- [Error Handling Rust Documentation](https://static.rust-lang.org/doc/master/book/error-handling.html)
 
 - [Sample Library Usage](https://github.com/brson/stdx/blob/master/README.md)
 
-TALKS : 
+## TALKS
+
 - [Rust at Speed](https://www.youtube.com/watch?v=s19G6n0UjsM&t=3s) 
     - Expalains usage of rust on [Noria](https://github.com/mit-pdos/noria)
     - Usage of cache inside DB, mainly materialized view, the current result for a query.
