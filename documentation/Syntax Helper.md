@@ -1,25 +1,21 @@
 # RUST
 
-- Rust is a systems programming language that focuses on strong compile-time correctness guarantees.
-
-- Strong memory guarantees make writing correct concurrent Rust code easier than in other languages.
-
-- It is focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector.
-
-- Good interfacing with wasm.
-
-- No garbage collector.
+- Rust is a systems programming language that focuses on strong compile-time correctness guarantees
+- Strong memory guarantees make writing correct concurrent Rust code easier than in other languages
+- It is focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector
+- Good interfacing with wasm
+- No garbage collector
 
 
 ## Ownership
 
- - Ownership 
+- Ownership 
     - The scope that will free the resource. Owned.
 
- - Mutable Reference
+- Mutable Reference
     - Can be only one. No one can Read and write. Exclusive access. No responsibility to free. Only borrowing it. Exclusive.
 
- - Immutable Reference
+- Immutable Reference
     - No modification. Multiple read. Shared.
 
 
@@ -137,18 +133,12 @@ fn main() {
 }
 ```
 
-## Smart Pointer
-
-
 ## Macro
-
 - Rust maintains `Hygenic macro`
 
-## Trait
-
 ## Borrow
-
-Any borrow must last for a scope no greater than that of the owner. We may have one or the other of these two kinds of borrows, but not both at the same time:
+Any borrow must last for a scope no greater than that of the owner. 
+We may have one or the other of these two kinds of borrows, but not both at the same time:
 
 - One or more references (&T) to a resource,
 - Exactly one mutable reference (&mut T).
