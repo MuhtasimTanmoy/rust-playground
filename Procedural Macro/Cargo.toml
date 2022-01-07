@@ -1,5 +1,5 @@
 [package]
-name = "walkthrough"
+name = "proc"
 version = "0.1.0"
 authors = ["MuhtasimTanmoy <taaanmo0oy@gmail.com>"]
 edition = "2018"

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -ex
+
 mkdir -p bin/
 
 clang -o bin/lib.o -c lib/*.c
