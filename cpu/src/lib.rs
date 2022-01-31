@@ -1,6 +1,10 @@
 
+extern crate num_cpus;
+
 pub fn print_cpu() {
+    let num = num_cpus::get();
     println!("{}", "cpu test");
+    println!("{}", num);
 }
 
 
