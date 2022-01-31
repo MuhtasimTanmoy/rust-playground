@@ -30,4 +30,3 @@
     - Explains covariance, invariance, contra variance
 
 - [Crust of Rust: Channels](https://www.youtube.com/watch?v=b4mS5UPHh20)
-    - Implementation available [here](./Concept/channel)

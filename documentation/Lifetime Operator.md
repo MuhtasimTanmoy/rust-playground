@@ -1,4 +1,3 @@
-
 ## Lifetime Operator
 
 ```rust
