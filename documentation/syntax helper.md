@@ -146,7 +146,6 @@ We may have one or the other of these two kinds of borrows, but not both at the 
 Borrow checker will check you have not used anything after you have gotten rid of it. Mutable access to something shared.
 
 
-
 ## Mutability
 
 ```rust
