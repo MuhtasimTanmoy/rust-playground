@@ -37,5 +37,3 @@ impl Serialize for Foo {
 # Implementation
 - `Cargo Check` to check if compiles without building
 - `Cargo Build` to build the actual project
-
-- 
