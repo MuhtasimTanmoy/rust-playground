@@ -1,13 +1,15 @@
 # Rust Playground
 
-> A compilation of sample code, snippets, materials, documentation while learning Rust.
+> This is a repository where I put random code, snippets, materials, documentation and anything and everything that I find interesting while learning `Rust`, with a focus on the `web3` domain.
 
-## Modules
+Feel free to use, clone, or update anything that catches your interest.
+
+## Sections
 - [TCP Transport Layer](./tcp-transport)
 - [POW-blockcahin](./pow-blockchain)
 - [Procedural macro](./procedural%20macro)
-- [Static Dynamic Linking](./static-dynamic-linking)
-- [Merkle Tree](./merkle%20tree/)
+- [Static dynamic linking](./static-dynamic-linking)
+- [Merkle Tree](./merkle%20tree)
 - [Libp2p](./libp2p)
 - [Zero Knowledge](./zero-knowledge)
 - [Channel](./channel)
@@ -16,7 +18,7 @@
 - [Tokio](./tokio)
 - [Documentation](./documentation)
 
-## RESOURCES:
+## Resources:
 - [Rust ownership, safety explained](https://words.steveklabnik.com/a-30-minute-introduction-to-rust)
 - [Macro Hygienic](https://en.wikipedia.org/wiki/Hygienic_macro)
 - [How Rust ownership works?](https://static.rust-lang.org/doc/master/book/ownership.html)
@@ -33,6 +35,8 @@
 - [Rust API Guidelines](https://github.com/brson/rust-api-guidelines)
 - [Another Container Cheet Sheet](https://i.redd.it/220xo2f6wci51.png)
 - [Rust Documentation](https://static.rust-lang.org/doc/master/book/getting-started.html)
+
+## Other Links
 - https://caniuse.rs
 - https://github.com/rust-unofficial/awesome-rust
 - https://lib.rs
