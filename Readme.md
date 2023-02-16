@@ -8,6 +8,10 @@
 - [procedural macro](./procedural%20macro/)
 - [static dynamic linking](./static-dynamic-linking)
 - [XDP-BPF]
+- [TCP Transport Layer](./tcp-transport)
+- [Merkle Tree](./merkle%20tree/)
+- [Libp2p](./libp2p)
+- [Zero Knowledge](./zero-knowledge)
 
 The repository also includes sample code and code snippets that demonstrate the concepts. See [documentation](./documentation/) for learning materials.
 
