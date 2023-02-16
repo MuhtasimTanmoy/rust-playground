@@ -2,6 +2,7 @@
 
 > A compilation of sample code, snippets, materials, documentation while learning Rust.
 
+## Modules
 - [TCP Transport Layer](./tcp-transport)
 - [POW-blockcahin](./pow-blockchain)
 - [Procedural macro](./procedural%20macro)
@@ -22,7 +23,7 @@
 - [Error Handling Rust Documentation](https://static.rust-lang.org/doc/master/book/error-handling.html)
 - [Sample Library Usage](https://github.com/brson/stdx/blob/master/README.md)
 
-## Docs
+## Docuemntation
 - [The Little Book of Rust Books](https://lborb.github.io/book/)
 - [Rust verification tools 2021](https://alastairreid.github.io/automatic-rust-verification-tools-2021/)
 - [Periodic Table of Rust Types](http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types)
