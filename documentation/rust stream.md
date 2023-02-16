@@ -21,6 +21,33 @@
     - Focus on solving the problem at hand, not what you want to solve.
     - Replace the problematic part with Rust.
 
+- [Rust at Speed](https://www.youtube.com/watch?v=s19G6n0UjsM&t=3s) 
+    - Expalains usage of rust on [Noria](https://github.com/mit-pdos/noria)
+    - Usage of cache inside DB, mainly materialized view, the current result for a query.
+    - Problem: Huge result table, concurrent read write on same table, partial materialized view.
+    - Lock, RWLock fails being the costly one themselves as the wrapping work is too less.
+    - Maintain two maps, one for read, another for write maintaining epic counter +2 for each read and  switch for alternatively.
+
+- [Crust of Rust: Subtyping and Variance](https://www.youtube.com/watch?v=iVYWDIW71jk)
+    - Explains covariance, invariance, contra variance
+
+- [Crust of Rust: Channels](https://www.youtube.com/watch?v=b4mS5UPHh20)
+
+- [Just Rust](https://www.youtube.com/watch?v=YtUfK3ZP3No&list=PLFCH6yhq9yAH28S_oGUtqO46eI7IAWdEO)
+    - `Valgrind` can find memory error, race condition
+    - `Covety` static analysis, defect finding tool
+
+- [The Why, What, and How of Pinning in Rust](https://youtu.be/DkMwYxfSYNQ)
+    - auto traits are `send`, `sync`, `unpin`
+    - Pin will put constraint on the item to not be `movable`
+    - future highly uses it
+
+- [Boats on Pinning](https://youtu.be/shtfSMTwKRw)
+    - Self referenctial `struct` handle
+    - Once you start polling a future you cant move it again
+    - As all `future` on await makes a `state machine`
+
+
 
 - Rust Course From Ardan Labs
     - Not exception rather error check has good performance
