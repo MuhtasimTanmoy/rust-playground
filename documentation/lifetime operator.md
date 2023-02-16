@@ -1,4 +1,5 @@
 ## Lifetime Operator
+
 ```rust
 // params with two lifetime as generic. Return depends only on first param's lifetime.
 fn skip_prefix<'a, 'b>(line: &'a str, prefix: &'b str) -> &'a str {
@@ -35,8 +36,10 @@ let x: &'static i32 = &FOO;
 
 ```
 
-## Lifetime elision
-Lifetime elision works according to three rules:
-- Each elided lifetime in a function’s arguments becomes a distinct lifetime parameter.
-- If there is only one input lifetime, that lifetime is assigned to all elided lifetimes in the return values of the function.
-- If there are multiple input lifetimes, but one of them is &self or &mut self, the lifetime of self is assigned to all elided output lifetimes.
+## Lifetime Elision
+
+The rules for lifetime elision are as follows:
+
+- In a function's arguments, every elided lifetime becomes a separate lifetime parameter.
+- If there is only one input lifetime, it is used for all the elided lifetimes in the return values of the function.
+- If there are multiple input lifetimes, and one of them is `&self` or `&mut self`, the lifetime of self is used for all the elided output lifetimes.

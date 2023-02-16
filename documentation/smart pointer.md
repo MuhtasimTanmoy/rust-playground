@@ -8,7 +8,6 @@
     - Smart pointer should be treated like regular pointer, pass by value, return by value. 8 byte.
 
 ```c++
-
 template<class T, class Deleter = std:: default_delete<T>>
 class unique_ptr {
     T *p_ = nullptr;
@@ -27,7 +26,6 @@ struct default_delete {
 }
 
 // Need to override default close function
-
 struct FileCloser {
     void operator()(FILE *fp) const {
         if (fp !=  nullptr) {

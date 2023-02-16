@@ -1,6 +1,5 @@
 # RUST
-
-- Rust is a systems programming language that focuses on strong compile-time correctness guarantees
+- Rust is a systems programming language that focuses on strong `compile-time correctness` guarantees
 - Strong memory guarantees make writing correct concurrent Rust code easier than in other languages
 - It is focused on three goals: safety, speed, and concurrency. It maintains these goals without having a garbage collector
 - Good interfacing with wasm
@@ -8,19 +7,14 @@
 
 
 ## Ownership
-
 - Ownership 
     - The scope that will free the resource. Owned.
-
 - Mutable Reference
     - Can be only one. No one can Read and write. Exclusive access. No responsibility to free. Only borrowing it. Exclusive.
-
 - Immutable Reference
     - No modification. Multiple read. Shared.
 
-
 ``` rust
-
 // Wont work. Stack Allocated. Borrowed pointer will leave. Borrowed value will not.
 fn dangling() -> &int {
     let i = 1234;
@@ -54,9 +48,7 @@ int *i = new int;
 // All of this checking is done at compile time, so there’s no runtime overhead. You’ll get (basically) the exact same code that you’d get if you wrote the correct C++, but it’s impossible to write the incorrect version, thanks to the compiler
 
 // Rust allows you to spin up ‘tasks,’ which are lightweight, ‘green’ threads. These tasks do not have any shared memory, and so, we communicate between tasks with a ‘channel’
-
 ```
-
 
 ## Copy vs Reference
 
@@ -75,18 +67,14 @@ fn main() {
     }
 }
 
-
 // Sending Reference.
 extern mod extra;
 use extra::arc::Arc;
 
 fn main() {
     let numbers = [1,2,3];
-
     // Arc stands for ‘atomically reference counted,’ and it’s a way to share immutable data between multiple tasks.
-
     let numbers_arc = Arc::new(numbers);
-
     for num in range(0, 3) {
         let (port, chan)  = Chan::new();
         chan.send(numbers_arc.clone());
@@ -105,9 +93,7 @@ use extra::arc::RWArc;
 
 fn main() {
     let numbers = [1,2,3];
-
     let numbers_arc = RWArc::new(numbers);
-
     for num in range(0, 3) {
         let (port, chan)  = Chan::new();
         chan.send(numbers_arc.clone());
@@ -178,23 +164,16 @@ println!("y: {:?}", point.y);
 ## Destructuring
 
 ```rust
-
 let Point(_, origin_y, origin_z) = origin;
-
 struct Inches(i32);
-
 let length = Inches(10);
-
 let Inches(integer_length) = length;
-
 ```
 
 ## Enum
-
 Also called `tagged union`
 
 ## Match
-
 Match is also an expression, which means we can use it on the right-hand side of a let binding or directly where an expression is used:
 
 ```rust
@@ -215,27 +194,20 @@ let number = match x {
 ```rust
 let x = 1;
 let c = 'c';
-
 match c {
     x => println!("x: {} c: {}", x, c),
 }
 
 println!("x: {}", x)
-
 // This prints:
-
 // x: c c: c
 // x: 1
-
-
 ```
 
 Sometimes it’s a nice way of converting something from one type to another; in this example the integers are converted to String.
 
 
-
 ## Methods
-
 This ‘associated function’ builds a new Circle for us. Note that associated functions are called with the Struct::function() syntax, rather than the ref.method() syntax. Some other languages call associated functions ‘static methods’.
 
 ```rust
@@ -267,7 +239,6 @@ fn main() {
 
 
 // Asscoiated methods
-
 impl Circle {
     fn new(x: f64, y: f64, radius: f64) -> Circle {
         Circle {
@@ -320,13 +291,9 @@ println!("");
 ## Unsized type
 
 Rust understands a few of these types, but they have some restrictions. 
-
 There are three:
-
 - We can only manipulate an instance of an unsized type via a pointer. An &[T] works fine, but a [T] does not.
-
 - Variables and arguments cannot have dynamically sized types.
-
 - Only the last field in a struct may have a dynamically sized type, the other fields must not. Enum variants must not have dynamically sized types as data.
 
 ## Generic
@@ -530,63 +497,35 @@ struct Deserializer<T> {
 
 
 ## Concurrency
-
 - When a type T implements Send, it indicates that something of this type is able to have ownership transferred safely between threads.
 
-
-
 **Other Points**
-
 - Static mut is unsafe, and so must be done in an unsafe block.
-
 - Any type stored in a static must be Sync, and must not have a Drop implementation.
-
 - They follow the “read-write lock” pattern, such that one may either have only one mutable reference to some data, or any number of immutable ones, but not both.
-
 - Mutex gives exclusive or mutable access to a key through a shared reference to mutex
-
 - R/W lock, mutex either have lock for multiple read or single write
-
 - Locks provide safe wrapper around aliased or shared pointer.
-
 - Learning curve is borrow checking
-
-- Rust Clippy
-
 - Carriage return line feed used in windows, linux uses line feed.
-
 - Calling rust has no abstraction like cGo, JNI.
-
 - Runtime programs 
     - Stuffs that your programming language puts that you dont write.
-    
 - Tokio core is event loop of tokio    
 
 ```rust
-
 #[cfg(foo)]
-
 // in toml define one
- 
 ```
 
-## **Build System**    
-
+## **Build System**
 Cargo is Rust’s build system and package manager, and Rustaceans use Cargo to manage their Rust projects.
-
 crate - library - holds module
-
 ```bash
-
 cargo init
-
 cargo new crate_name
-
 ```
 
 **incomplete**
-
 **Trait objects** - has lackings, read again
-
 **Closures**
-

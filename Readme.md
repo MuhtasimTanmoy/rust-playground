@@ -1,6 +1,6 @@
 # Rust Playground
 
-> Tracking sample code, snippets, learning materials when learning rust
+> A compilation of sample code, snippets, materials, documentation while learning Rust.
 
 - [TCP Transport Layer](./tcp-transport)
 - [POW-blockcahin](./pow-blockchain)
@@ -12,6 +12,7 @@
 - [Channel](./channel)
 - [CPU](./cpu)
 - [XDP-BPF](./XDP-BPF)
+- [Tokio](./tokio)
 - [Documentation](./documentation)
 
 ## RESOURCES:

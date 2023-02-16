@@ -21,9 +21,7 @@ fn main() {
     // Simple macro uasge
     test!();
     println!("Hello, world!");
-
     let mut variable_name = five_times!(2 + 3);
-
     java_print! {
         system.out.println(variable_name);
     }

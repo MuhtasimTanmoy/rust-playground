@@ -7,9 +7,8 @@
 - Well Explained
     - https://www.parity.io/blog/why-libp2p
 
-Playlist
-https://youtu.be/1WuXJ9zBAqw?list=PLhuBigpl7lqs-S5hlJm44a0KGtDRc4-O2
-- Later
+- [Playlist](https://youtu.be/1WuXJ9zBAqw?list=PLhuBigpl7lqs-S5hlJm44a0KGtDRc4-O2)
+    - Watch later
 
 Filecoin Concepts
 - Based on orderbook
