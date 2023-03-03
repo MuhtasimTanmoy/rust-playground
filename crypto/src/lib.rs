@@ -2,15 +2,13 @@ use ed25519::signature::{Signer, Verifier};
 
 pub struct HelloSigner<S>
 where
-    S: Signer<ed25519::Signature>
-{
+    S: Signer<ed25519::Signature> {
     pub signing_key: S
 }
 
 impl<S> HelloSigner<S>
 where
-    S: Signer<ed25519::Signature>
-{
+    S: Signer<ed25519::Signature> {
     pub fn sign(&self, person: &str) -> ed25519::Signature {
         // NOTE: use `try_sign` if you'd like to be able to handle
         // errors from external signing services/devices (e.g. HSM/KMS)
@@ -25,8 +23,7 @@ pub struct HelloVerifier<V> {
 
 impl<V> HelloVerifier<V>
 where
-    V: Verifier<ed25519::Signature>
-{
+    V: Verifier<ed25519::Signature> {
     pub fn verify(
         &self,
         person: &str,
