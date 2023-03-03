@@ -73,6 +73,7 @@ mod tests {
 // merkle root is 517427232545752892
 // merkle proof lemmas are [3584654056691428718, 6308131355062673692], indices are [6]
 // merkle proof verify result is true
+
 // merkle proof lemmas are [10289152030157698709, 3584654056691428718, 12435641680370208774], indices are [6, 9]
 // retrieved leaves are Some([42, 20191116])
 // calculated root of proof is Some(517427232545752892)

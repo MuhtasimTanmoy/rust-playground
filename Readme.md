@@ -16,6 +16,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [CPU](./cpu)
 - [XDP-BPF](./XDP-BPF)
 - [Tokio](./tokio)
+- [GRPC](./grpc/)
 - [Documentation](./documentation)
 
 ## Resources:
