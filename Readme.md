@@ -36,6 +36,8 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Rust API Guidelines](https://github.com/brson/rust-api-guidelines)
 - [Another Container Cheet Sheet](https://i.redd.it/220xo2f6wci51.png)
 - [Rust Documentation](https://static.rust-lang.org/doc/master/book/getting-started.html)
+- [Rust Blog](https://github.com/pretzelhammer/rust-blog)
+- [Rust Learning](https://github.com/ctjhoa/rust-learning)
 
 ## Other Links
 - https://caniuse.rs
