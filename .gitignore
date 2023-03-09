@@ -13,3 +13,4 @@ Cargo.lock
 review/
 
 .idea/
+.vscode/
