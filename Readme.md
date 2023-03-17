@@ -5,6 +5,7 @@
 Feel free to `use`, `clone`, or `update` anything that catches your interest.
 
 ## Sections
+- [Atomics](./atomics%20locks/)
 - [TCP Transport Layer](./tcp-transport)
 - [POW-blockcahin](./pow-blockchain)
 - [Procedural macro](./procedural%20macro)
@@ -17,7 +18,10 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [XDP-BPF](./XDP-BPF)
 - [Tokio](./tokio)
 - [GRPC](./grpc)
-- [I)_URING](./io_uring/)
+- [IO_URING](./io_uring/)
+- [Crypto](./crypto/)
+- [Workspace](./workspace/)
+- [Threads](./threads/)
 - [Documentation](./documentation)
 
 ## Resources:
@@ -47,3 +51,4 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - https://cheats.rs
 - https://github.com/rust-secure-code/projects
 - https://github.com/pretzelhammer/rust-blog/blob/master/posts/tour-of-rusts-standard-library-traits.md
+- https://lwn.net
