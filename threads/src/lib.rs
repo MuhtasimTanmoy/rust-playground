@@ -1,5 +1,20 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+use std::thread;
+
+// thread spawn
+fn spawn() {
+    let t1 = thread::spawn(f);
+    let t2 = thread::spawn(f);
+
+    println!("Hello from the main thread.");
+
+    t1.join().unwrap();
+    t2.join().unwrap();
+}
+
+fn f() {
+    println!("Hello from another thread!");
+    let id = thread::current().id();
+    println!("This is my thread id: {id:?}");
 }
 
 #[cfg(test)]
@@ -8,7 +23,6 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+        spawn();
     }
 }
