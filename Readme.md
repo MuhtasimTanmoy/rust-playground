@@ -23,6 +23,8 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Workspace](./workspace/)
 - [Threads](./threads/)
 - [Documentation](./documentation)
+- Projects: Contains overview of project and it's architeture
+    - [Conflux](./projects/conflux.md)
 
 ## Resources:
 - [Rust ownership, safety explained](https://words.steveklabnik.com/a-30-minute-introduction-to-rust)
