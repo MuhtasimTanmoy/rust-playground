@@ -29,3 +29,7 @@ At the heart of Conflux is the `Tree-Graph ledger` structure and the `GHAST` cha
 
 - [Conflux PoW based GHAST blockchain](https://youtu.be/8rxMrvhzk8Y)
     - Ghost protocol selects chain with heaviest subtree rule, whereas nakamoto concensus does that with longest chain
+
+## Source Code Takeaway
+- [patch.crates-io]
+    - This section specifies the patched version of crates package

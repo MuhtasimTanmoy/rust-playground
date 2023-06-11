@@ -7,7 +7,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 ## Sections
 - [Atomics](./atomics%20locks/)
 - [TCP Transport Layer](./tcp-transport)
-- [POW-blockcahin](./pow-blockchain)
+- [POW blockcahin](./pow-blockchain)
 - [Procedural macro](./procedural%20macro)
 - [Static dynamic linking](./static-dynamic-linking)
 - [Merkle Tree](./merkle%20tree)
@@ -15,7 +15,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Zero Knowledge](./zero-knowledge)
 - [Channel](./channel)
 - [CPU](./cpu)
-- [XDP-BPF](./XDP-BPF)
+- [XDP-BPF](./xdp-bpf)
 - [Tokio](./tokio)
 - [GRPC](./grpc)
 - [IO_URING](./io_uring/)
