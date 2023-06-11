@@ -45,6 +45,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Rust Documentation](https://static.rust-lang.org/doc/master/book/getting-started.html)
 - [Rust Blog](https://github.com/pretzelhammer/rust-blog)
 - [Rust Learning](https://github.com/ctjhoa/rust-learning)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 
 ## Other Links
 - https://caniuse.rs
