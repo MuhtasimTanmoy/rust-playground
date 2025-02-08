@@ -5,26 +5,21 @@
 Feel free to `use`, `clone`, or `update` anything that catches your interest.
 
 ## Sections
-- [Atomics](./atomics%20locks/)
-- [TCP Transport Layer](./tcp-transport)
-- [POW blockcahin](./pow-blockchain)
+- [Documentation](./docs): Contains various info on rust primitives, projects.
+- [Atomics](./atomics)
+- [Tokio](./tokio)
+- [IO_URING](./io_uring)
+- [Channel](./channel)
 - [Procedural macro](./procedural%20macro)
+- [POW blockcahin](./pow-blockchain)
 - [Static dynamic linking](./static-dynamic-linking)
 - [Merkle Tree](./merkle%20tree)
-- [Libp2p](./libp2p)
-- [Zero Knowledge](./zero-knowledge)
-- [Channel](./channel)
 - [CPU](./cpu)
+- [TCP Transport Layer](./tcp-transport)
 - [XDP-BPF](./xdp-bpf)
-- [Tokio](./tokio)
-- [GRPC](./grpc)
-- [IO_URING](./io_uring/)
-- [Crypto](./crypto/)
-- [Workspace](./workspace/)
-- [Threads](./threads/)
-- [Documentation](./documentation)
-- Projects: Contains overview of project and it's architeture
-    - [Conflux](./projects/conflux.md)
+- [Crypto](./crypto)
+- [Workspace](./workspace)
+- [Threads](./threads)
 
 ## Resources:
 - [Rust ownership, safety explained](https://words.steveklabnik.com/a-30-minute-introduction-to-rust)

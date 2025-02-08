@@ -5,7 +5,7 @@ Concurrency Primitives
 - Locks
 - Reference counts
 - Atomics
-- Mailboxes/ Channels
+- Mailboxes / Channels
 
 ## Resource
 - https://marabos.nl/atomics

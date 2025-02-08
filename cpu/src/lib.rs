@@ -1,4 +1,3 @@
-
 extern crate num_cpus;
 
 pub fn print_cpu() {
