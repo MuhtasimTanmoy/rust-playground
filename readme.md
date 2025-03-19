@@ -1,13 +1,13 @@
-# Rust Playground
+ # Rust Playground
 
 > This is a repository where I put random code, snippets, materials, documentation and anything and everything that I find interesting while learning `Rust`, with a focus on the `web3` domain.
 
 Feel free to `use`, `clone`, or `update` anything that catches your interest.
 
 ## Sections
+
 - [Documentation](./docs): Contains various info on rust primitives, projects.
 - [Atomics](./atomics)
-- [Tokio](./tokio)
 - [IO_URING](./io_uring)
 - [Channel](./channel)
 - [Procedural macro](./procedural%20macro)
@@ -16,12 +16,12 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Merkle Tree](./merkle%20tree)
 - [CPU](./cpu)
 - [TCP Transport Layer](./tcp-transport)
-- [XDP-BPF](./xdp-bpf)
 - [Crypto](./crypto)
 - [Workspace](./workspace)
 - [Threads](./threads)
 
 ## Resources:
+
 - [Rust ownership, safety explained](https://words.steveklabnik.com/a-30-minute-introduction-to-rust)
 - [Macro Hygienic](https://en.wikipedia.org/wiki/Hygienic_macro)
 - [How Rust ownership works?](https://static.rust-lang.org/doc/master/book/ownership.html)
@@ -29,6 +29,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Sample Library Usage](https://github.com/brson/stdx/blob/master/README.md)
 
 ## Docuemntation
+
 - [The Little Book of Rust Books](https://lborb.github.io/book/)
 - [Rust verification tools 2021](https://alastairreid.github.io/automatic-rust-verification-tools-2021/)
 - [Periodic Table of Rust Types](http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types)
@@ -43,6 +44,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 
 ## Other Links
+
 - https://caniuse.rs
 - https://github.com/rust-unofficial/awesome-rust
 - https://lib.rs
