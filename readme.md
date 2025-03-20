@@ -8,6 +8,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 
 - [Documentation](./docs): Contains various info on rust primitives, projects.
 - [Atomics](./atomics)
+- [Threads](./threads)
 - [IO_URING](./io_uring)
 - [Channel](./channel)
 - [Procedural macro](./procedural%20macro)
@@ -18,7 +19,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [TCP Transport Layer](./tcp-transport)
 - [Crypto](./crypto)
 - [Workspace](./workspace)
-- [Threads](./threads)
+
 
 ## Resources:
 
