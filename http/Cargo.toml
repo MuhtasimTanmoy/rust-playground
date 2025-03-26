@@ -1,0 +1,12 @@
+[package]
+name = "http"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json", "blocking"] } # HTTP client with JSON support
+serde = { version = "1.0", features = ["derive"] }            # Serialization/deserialization
+serde_json = "1.0"                                            # JSON handling
+tokio = { version = "1.0", features = ["full"] }              # Async runtime (optional here)

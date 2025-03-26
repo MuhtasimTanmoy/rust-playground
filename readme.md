@@ -19,7 +19,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [TCP Transport Layer](./tcp-transport)
 - [Crypto](./crypto)
 - [Workspace](./workspace)
-
+- [HTTP](./http)
 
 ## Resources:
 
