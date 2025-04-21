@@ -53,3 +53,9 @@ Concurrency Primitives
 - [CppCon 2015: Michael Wong “C++11/14/17 atomics and memory model..."](https://www.youtube.com/watch?v=DS2m7T6NKZQ)
 - [Arvid Norberg: The C++ memory model: an intuition](https://www.youtube.com/watch?v=OyNG4qiWnmU)
 - [Introduction to Wait-free Algorithms in C++ Programming - Daniel Anderson - CppCon 2024](https://youtu.be/kPh8pod0-gk)
+
+
+## Library
+- https://github.com/rust-lang/miri
+- https://github.com/tokio-rs/loom
+- 
