@@ -1,4 +1,5 @@
 ## Learning Resources
+Credit: https://github.com/crossbeam-rs/crossbeam
 
 ### Papers
 
