@@ -46,6 +46,11 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Rust Learning](https://github.com/ctjhoa/rust-learning)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 
+## Books
+- Rust Atomics and Locks
+- Rust under the hood
+- Rust for Rustaceans
+
 ## Other Links
 
 - https://caniuse.rs
