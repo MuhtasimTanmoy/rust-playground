@@ -58,4 +58,4 @@ Concurrency Primitives
 ## Library
 - https://github.com/rust-lang/miri
 - https://github.com/tokio-rs/loom
-- 
+- https://altsysrq.github.io/proptest-book/proptest/vs-quickcheck.html

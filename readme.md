@@ -20,6 +20,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Crypto](./crypto)
 - [Workspace](./workspace)
 - [HTTP](./http)
+- [MISC](./misx)
 
 ## Resources:
 
