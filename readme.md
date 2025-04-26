@@ -20,6 +20,8 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Crypto](./crypto)
 - [Workspace](./workspace)
 - [HTTP](./http)
+- [Concurrent Programming](./concurrent)
+- [MISC](./misx)
 
 ## Resources:
 
@@ -43,6 +45,11 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Rust Blog](https://github.com/pretzelhammer/rust-blog)
 - [Rust Learning](https://github.com/ctjhoa/rust-learning)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+
+## Books
+- Rust Atomics and Locks
+- Rust under the hood
+- Rust for Rustaceans
 
 ## Other Links
 
