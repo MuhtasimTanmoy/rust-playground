@@ -53,7 +53,6 @@ Concurrency Primitives
 - [Arvid Norberg: The C++ memory model: an intuition](https://www.youtube.com/watch?v=OyNG4qiWnmU)
 - [Introduction to Wait-free Algorithms in C++ Programming - Daniel Anderson - CppCon 2024](https://youtu.be/kPh8pod0-gk)
 - [Rust's Approach to Safe and Manageable Multithreading](https://www.youtube.com/watch?v=THgY-sRthOY&list=PLADD_vxzPcZDtlNjthxaZzAzvUUC5t8Vn)
-- 
 
 
 ## Library
