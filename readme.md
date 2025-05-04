@@ -21,7 +21,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Workspace](./workspace)
 - [HTTP](./http)
 - [Concurrent Programming](./concurrent)
-- [MISC](./misx)
+- [Rustcean](./rustcean)
 
 ## Resources:
 
