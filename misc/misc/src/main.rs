@@ -1,15 +1,26 @@
-use std::cell:UnsafeCell;
+use serde::{Deserialize, Serialize};
 
-pub struct RefCell<T> {
-    data: UnsafeCell<T>,
-    reference: isize,
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct Message {
+    from: String,
+    to: String,
+    body: Body,
 }
 
-implt<T> RefCell {
-    pub fn new(value: T) {
-        Self {
-            data: UnsafeCell::new(T),
-            reference: 0,
-        }
-    }
+#[derive(Debug, Clone, Serialize, Deserialize)]
+struct Body {
+    #[serde(rename = "msg_id")]
+    id: Option<usize>,
+    in_reply_to: Option<usize>,
+    #[serde(flatten)]
+    payload: Payload,
 }
+
+#[derive(Debug, Clone, Serialize, Deserialize)]
+#[serde(tag = "type")]
+#[serde(rename_all = "snake_case")]
+enum Payload {
+    Echo(String),
+}
+
+fn main() {}
