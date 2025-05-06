@@ -41,3 +41,21 @@ objdump -j .comment -s
 rustup target add x86_64-unknown-linux-gnu
 cargo build --target x86_64-unknown-linux-gnu
 dwarfdump target/debug/echo
+
+lldb target/debug/echo
+image list
+
+nm -a target/debug/echo
+
+dsymutil target/debug/echo
+
+cargo build --profile dev --config profile.dev.debug=0
+
+## Links
+https://users.rust-lang.org/t/mold-linker-not-working-properly-with-rust/88376
+https://stackoverflow.com/questions/67511990/how-to-use-the-mold-linker-with-cargo
+https://stackoverflow.com/questions/3286675/readelf-like-tool-for-mac-os-x
+https://stackoverflow.com/questions/68343560/what-linker-was-used-to-build-a-rust-binary
+
+## Reference
+- [GOSIM CHINA 2024 - David Lattimore: Incremental Linking and Hot Code Reloading for Rust](https://youtu.be/XFSwmSXv2QA)
