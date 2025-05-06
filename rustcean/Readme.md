@@ -24,4 +24,9 @@
 - [Crust of Rust: Send, Sync, and their implementors](https://www.youtube.com/watch?v=yOezcP-XaIw)
 - [Crust of Rust: Smart Pointers and Interior Mutability](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
 - [Decrusting the axum crate](https://youtu.be/Wnb_n5YktO8?list=PLqbS7AVVErFirH9armw8yXlE6dacF-A6z)
+- [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
 
+- `cargo outdated -R`
+- Fetch git workflow
+- tag-from-cargo-toml.sh 
+- git push --tags; and git push: and cargo publish
