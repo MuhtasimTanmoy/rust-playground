@@ -1,6 +1,8 @@
 use std::sync::{Arc, Mutex};
 use std::collections::VecDeque;
 
+// https://gist.github.com/jonhoo/935060885d0d832d463fda3c89e8259d
+
 // Flavors:
 //  - Synchronous channels: Channel where send() can block. Limited capacity.
 //  - Mutex + Condvar + VecDeque
