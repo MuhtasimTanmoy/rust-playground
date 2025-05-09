@@ -25,6 +25,9 @@
 - [Crust of Rust: Smart Pointers and Interior Mutability](https://www.youtube.com/watch?v=8O0Nt9qY_vo)
 - [Decrusting the axum crate](https://youtu.be/Wnb_n5YktO8?list=PLqbS7AVVErFirH9armw8yXlE6dacF-A6z)
 - [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
+- [Real-time Programming with the C++ Standard Library - Timur Doumler - CppCon 2021](https://www.youtube.com/watch?v=Tof5pRedskI)
+- [CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?”](https://www.youtube.com/watch?v=ZQFzMfHIxng)
+
 
 - `cargo outdated -R`
 - Fetch git workflow
