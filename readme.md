@@ -22,6 +22,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [HTTP](./http)
 - [Concurrent Programming](./concurrent)
 - [Rustcean](./rustcean)
+- [Memory Allocator](./memalloc)
 
 ## Resources:
 

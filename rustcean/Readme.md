@@ -27,6 +27,7 @@
 - [Crust of Rust: Dispatch and Fat Pointers](https://youtu.be/xcygqF5LVmM)
 - [Real-time Programming with the C++ Standard Library - Timur Doumler - CppCon 2021](https://www.youtube.com/watch?v=Tof5pRedskI)
 - [CppCon 2017: Fedor Pikus “C++ atomics, from basic to advanced. What do they really do?”](https://www.youtube.com/watch?v=ZQFzMfHIxng)
+- [Lifetime and Usage of Global, Thread-local, and Static Data](https://www.youtube.com/watch?v=ffb7IUgwkYg)
 
 
 - `cargo outdated -R`
