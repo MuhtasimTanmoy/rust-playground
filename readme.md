@@ -34,6 +34,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 
 ## Docuemntation
 
+- [Rust Training Book](https://rust-training.ferrous-systems.com/latest/book/debugging-rust)
 - [The Little Book of Rust Books](https://lborb.github.io/book/)
 - [Rust verification tools 2021](https://alastairreid.github.io/automatic-rust-verification-tools-2021/)
 - [Periodic Table of Rust Types](http://cosmic.mearie.org/2014/01/periodic-table-of-rust-types)

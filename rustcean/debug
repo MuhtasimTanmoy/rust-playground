@@ -1,0 +1,57 @@
+(lldb) b src/main.rs:10
+(lldb) r
+(lldb) n
+(lldb) s
+(lldb) c
+
+
+(lldb) p variable_name
+(lldb) pt variable_name
+(lldb) p *variable_name
+
+
+(lldb) p my_option
+(lldb) p my_option.is_some()
+
+
+(lldb) p my_result
+(lldb) p my_result.is_ok()
+
+(lldb) p *boxed_value
+
+(lldb) p rc_value.strong_count
+(lldb) p *rc_value
+
+
+(lldb) p vec_variable
+(lldb) p hash_map_variable
+(lldb) p string_variable
+
+
+(lldb) p &variable
+(lldb) x address
+(lldb) p sizeof(Type)
+
+
+(lldb) p variable._ownership
+(lldb) p variable._borrow
+
+(lldb) br set -f main.rs -l 10 -c "x > 5"
+
+(lldb) command alias pc print -c
+
+(lldb) expr (variable + 1) * 2
+
+# Track variable moves
+(lldb) bt
+(lldb) frame variable
+# Check current scope
+(lldb) frame info
+
+
+(lldb) thread list
+(lldb) thread select 2
+(lldb) thread backtrace
+
+(lldb) p future_variable
+(lldb) p task_handle
