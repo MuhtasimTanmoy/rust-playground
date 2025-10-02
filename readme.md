@@ -23,6 +23,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Concurrent Programming](./concurrent)
 - [Rustcean](./rustcean)
 - [Memory Allocator](./memalloc)
+- [Toy Poseidon](./poseidon/)
 
 ## Resources:
 
