@@ -24,6 +24,7 @@ Feel free to `use`, `clone`, or `update` anything that catches your interest.
 - [Rustcean](./rustcean)
 - [Memory Allocator](./memalloc)
 - [Toy Poseidon](./poseidon/)
+- [Property Testing](./proptest/)
 
 ## Resources:
 
